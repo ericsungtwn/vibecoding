@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000080;
+            color: #ffffff;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            background: linear-gradient(135deg, #000080 0%, #0000ff 100%);
+            border: 3px solid #ffff00;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px #000000;
+            color: #ffff00;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #00ffff;
+        }
+
+        .menu {
+            margin: 30px 0;
+        }
+
+        .menu a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .menu a:hover {
+            background: #ffffff;
+            color: #ff0000;
+            transform: scale(1.1);
+        }
+
+        .welcome-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 25px 0;
+            color: #ffffff;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #00ff00;
+        }
+
+        .construction {
+            background: #ffff00;
+            color: #000000;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .counter {
+            background: #000000;
+            color: #00ff00;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-family: "Courier New", monospace;
+            margin: 15px auto;
+            display: inline-block;
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        .marquee {
+            background: #ff0000;
+            color: #ffffff;
+            padding: 8px;
+            margin: 20px 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .marquee span {
+            display: inline-block;
+            animation: marquee 15s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Welcome to My Website! 🌟</h1>
+        
+        <div class="subtitle">~*~ Best viewed with Internet Explorer 6.0 ~*~</div>
+        
+        <div class="construction">🚧 Under Construction 🚧</div>
+        
+        <div class="welcome-text">
+            Hello and welcome to my awesome website!<br>
+            This is where the magic happens.<br>
+            Feel free to explore and have fun!
+        </div>
+        
+        <div class="menu">
+            <a href="#">🏠 Home</a>
+            <a href="#">📝 About</a>
+            <a href="#">📧 Contact</a>
+            <a href="#">🖼️ Gallery</a>
+        </div>
+        
+        <div class="marquee">
+            <span>🎉 Welcome to the future of the internet! 🎉 New content coming soon! 🎉</span>
+        </div>
+        
+        <div class="counter">
+            Visitors: 000,001
+        </div>
+        
+        <div class="footer">
+            <span class="blink">✨</span> 
+            Last updated: January 2024 
+            <span class="blink">✨</span>
+        </div>
+    </div>
+</body>
+</html>
