@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "顏色選擇器",
+  "version": "1.0",
+  "description": "一個簡單的顏色選擇器工具",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+} 
